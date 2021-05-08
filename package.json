@@ -1,0 +1,21 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "main": "com.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^9.1.1",
+    "puppeteer-extra-plugin-stealth": "^2.7.8"
+  },
+  "devDependencies": {
+    "playwright": "^1.10.0"
+  }
+}
