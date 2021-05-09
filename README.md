@@ -23,8 +23,8 @@ This project performs following tasks:
 ✅Once all lectures are over Browser will get closed<br></br> 
 ```
 ## Installation
-You need a working installation of node and the npm package manager.In your terminal, install dependencies with ```npm install```.
-(Use this command to install all the modules used in this project automatically without installing them individually)
+You need a working installation of node and the npm package manager. In your terminal, install dependencies with ```npm install```.
+( Use this command to install all the modules used in this project automatically without installing them individually )
 
 ```bash
 npm install 
@@ -33,7 +33,7 @@ npm install
 ## Usage
 It contains two functions <br></br>
 1. First function uses headless browser( Puppeteer uses headless chrome, Headless Chrome is a way to run the Chrome Browser without actually running Chrome.) 
-2. Second function uses browser that is visible to us (```headless : false``` => means browser ```visible``` to us, ```headless : true``` => means browser is``` not visible``` to us)
+2. Second function uses browser that is visible to us (```headless : false``` => means browser ```visible``` to us, ```headless : true``` => means browser is ```not visible``` to us)
 <br></br>
 
 <b>Lets look at the code one by one</b>
@@ -52,7 +52,7 @@ We need to require the dependencies that we are going to use in our project.
 3. [puppeteer-extra-plugin-stealth](https://github.com/berstend/puppeteer-extra/tree/0049d6010311505f27e7f3be804bb198e2c09aa2/packages/puppeteer-extra-plugin-stealth)
 
 ✅ ```puppeeteer-extra``` with stealth passes all public bot tests.<br></br>
-There are 3 async functions, lets talk about the first function named as fun1()( this function is responsible for scrapping the data and generating pdf)
+There are 3 async functions, lets talk about the first function named as fun1( this function is responsible for scrapping the data and generating pdf )
 ```javascript
 async function fun1()
 {
@@ -101,7 +101,7 @@ async function fun1()
   
 ```
 
-This function contains 4 parts ( data changes every day as per the changes made in that respective urls)
+This function contains 4 parts ( data changes every day as per the changes made in that respective urls )
 1. Goes to url to generate pdf of daily new.
 2. Goes to url to generate pdf of current corona cases in India.
 3. Goes to url to generate pdf of current corona cases in your state.
@@ -113,7 +113,7 @@ This function contains 4 parts ( data changes every day as per the changes made 
 
 After completing the task, browser will get closed. In the last line we have invoked this function.
 <br></br>
-Now, lets talk about the next function named as main(). This function contains the code of our automation for gmail and google meet.
+Now, lets talk about the next function named as main. This function contains the code of our automation for gmail and google meet.
 
 ```javascript
 let id = [`meetID-1`,`meetID2`,`meetID3`];
@@ -182,7 +182,7 @@ await browser.close();
  
  
 ```
-This function calls another async function named as meet which takes two arguments (meeting IDs and tab)
+This function calls another async function named as meet which takes two arguments (meeting ID and tab)
 <br></br>
 So, here comes our next and last function.
 
