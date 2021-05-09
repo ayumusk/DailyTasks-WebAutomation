@@ -7,7 +7,7 @@ So, I automated my daily tasks with the help of web automation tool called ```pu
 
 ## Features
 
-This project perform following tasks:
+This project performs following tasks:
 ##
 ```
 ✅Generates a pdf of daily news<br></br> 
