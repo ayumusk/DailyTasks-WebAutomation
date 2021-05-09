@@ -16,7 +16,7 @@ This project performs following tasks:
 ✅Generates a pdf of vaccine related information<br></br> 
 ✅Login to gmail and takes a screenshot of inbox<br></br> 
 ✅Goes to google meet and write meet ID <br></br> 
-✅Turns of mic and camera<br></br> 
+✅Turns off mic and camera<br></br> 
 ✅Asks to join<br></br> 
 ✅Sends a message in ChatBox<br></br> 
 ✅After lecture time in ends the call and joins next meeting (or lecture)<br></br> 
