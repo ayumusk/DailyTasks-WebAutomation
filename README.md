@@ -10,17 +10,17 @@ So, I automated my daily tasks with the help of web automation tool called ```pu
 This project performs following tasks:
 ##
 ```
-✅Generates a pdf of daily news<br></br> 
-✅Generates a pdf of current corona scenerio in India<br></br>
-✅Generates a pdf of current corona scenerio in Delhi( your location )<br></br> 
-✅Generates a pdf of vaccine related information<br></br> 
-✅Login to gmail and takes a screenshot of inbox<br></br> 
-✅Goes to google meet and write meet ID <br></br> 
-✅Turns off mic and camera<br></br> 
-✅Asks to join<br></br> 
-✅Sends a message in ChatBox<br></br> 
-✅After lecture time in ends the call and joins next meeting (or lecture)<br></br> 
-✅Once all lectures are over Browser will get closed<br></br> 
+✅Generates a pdf of daily news
+✅Generates a pdf of current corona scenerio in India
+✅Generates a pdf of current corona scenerio in Delhi( your location )
+✅Generates a pdf of vaccine related information
+✅Login to gmail and takes a screenshot of inbox
+✅Goes to google meet and write meet ID
+✅Turns off mic and camera
+✅Asks to join
+✅Sends a message in ChatBox 
+✅After lecture time in ends the call and joins next meeting (or lecture)
+✅Once all lectures are over Browser will get closed
 ```
 ## Installation
 You need a working installation of node and the npm package manager. In your terminal, install dependencies with ```npm install```.
