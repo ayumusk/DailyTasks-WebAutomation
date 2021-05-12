@@ -102,7 +102,7 @@ async function fun1()
 ```
 
 This function contains 4 parts ( data changes every day as per the changes made in that respective urls )
-1. Goes to url to generate pdf of daily new.
+1. Goes to url to generate pdf of daily news.
 2. Goes to url to generate pdf of current corona cases in India.
 3. Goes to url to generate pdf of current corona cases in your state.
 4. Goes to url to generate pdf of vaccination details.
